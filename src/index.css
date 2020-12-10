@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header-icon:hover {
+  transform: scale(1.25);
+  color: #02eac7 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#root {
+  background-color: #8080ff;
+  padding-bottom: 40px;
+}
+
+.particles-js-canvas-el {
+  width: 100%;
+  top: 0;
+  height: 100%;
+  position: fixed;
+}
